@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!-- Saturday April 5, 2025 10:23 a.m.  Christopher Jacobo: a rainy day -->
+
+<!-- This page has several forms for users to interact with and submit -->
+
+<html>
+    <head>
+        <title>Space Battleship Yamato 2199 Fan Page</title>
+        <link href="../Styles/styles.css" type="text/css"
+            rel="stylesheet" />
+    </head>
+
+    <h1>Welcome to the Survey Page</h1>
+    <br />
+
+    <!-- Present checkbox about user's favorite anime genres-->
+    <form action="somefuturesurveypagetocome.com/survey.java"
+            method="get">
+        <fieldset> 
+            <legend>Anime Genres</legend>
+            What's your favorite anime genre(s)? (Select all that apply)
+            <br />
+            <input id="actionBox" type="checkbox" name="animeGenre"
+                    value="action" checked="checked" />
+                <label for="actionBox">Action</label>
+            <input id="romanceBox" type="checkbox" name="animeGenre"
+                    value="romance" />
+                <label for="romanceBox">Romance</label>
+            <input id="comedyBox" type="checkbox" name="animeGenre"
+                    value="comedy" />
+                <label for="comedyBox">Comedy</label>
+            <input id="mysteryBox" type="checkbox" name="animeGenre"
+                    value="mystery" />
+                <label for="mysteryBox">Mystery</label>
+            <input id="childrenBox" type="checkbox" name="animeGenre"
+                    value="children" />
+                <label for="childrenBox">Children's</label>
+            <input id="sliceBox" type="checkbox" name="animeGenre"
+                    value="sliceoflife" />
+                <label for="sliceBox">Slice of Life</label>
+            <!-- Submit button goes here -->
+            <input type="submit" name="animeGenre"
+                    value="Submit response" />
+        </fieldset>
+    </form>
+    <br />
+
+    <!-- Present a radio button about the user's overall liking of the show
+    -->
+
+    <form action="somefuturesurveypagetocome.com/survey.java">
+        <fieldset>
+            <legend>Overall Opinion of Yamato 2199</legend>
+            Overall, what did you think of the show? <br />
+            <input type="radio" name="overallOpinion"
+                    value="liked" checked="checked" /> I liked it
+            <input type="radio" name="overallOpinion"
+                    value="notLiked" /> I did not like it
+            <input type="radio" name="overallOpinion"
+                    value="mixed" /> It was so-so (ie, good and bad)
+            <input type="radio" name="overallOpinion"
+                    value="notWatched" /> I have not watched it yet
+            <!-- Submit button goes here-->
+            <input type="submit" name="overallOpinion"
+                    value="Submit response" />
+        </fieldset>
+    </form>
+    <br />
+
+    <form action="somefuturesurveypagetocome.com/survey.java">
+        <fieldset>
+                <legend>Age Group</legend>
+                <select name="ageGroups">
+                        <option value="under18">Under 18</option>
+                        <option value="18-24">18-24</option>
+                        <option value="25-31">25-31</option>
+                        <option value="32-38">32-38</option>
+                        <option value="39-45">39-45</option>
+                        <option value="above45">Above 45</option>
+                </select>
+                <!-- SUbmit button goes here -->
+                <input type="submit" name="ageGroups" value="Submit response">
+        </fieldset>
+    </form>
+    <br />
+
+
+</html>

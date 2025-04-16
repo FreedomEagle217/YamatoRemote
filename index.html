@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Wednesday April 2, 2025    8:55 p.m.   Christopher Jacobo
+    This is the main page of the Yamato 2199 Fanpage website
+-->
+
+<html>
+    <head>
+        <title>Space Battleship Yamato 2199 Fan Page</title>
+        <link href="Styles/styles.css" type="text/css"
+                rel="stylesheet" />
+    </head>
+
+    <header>
+        <!-- Making a log-in fieldset -->
+         <fieldset>
+            <legend>Log-In here</legend>
+            <form action="Somefutureloginpagetocom/log-in.java" method="post">
+                <label>Username:
+                    <input type="text" name="userName" 
+                            maxlength="30" /> </label> <br />
+                </label>
+                <label>Password:
+                    <input type="password" name="userPassword"
+                            maxlength="30" /> </label> <br />
+                </label>
+                <input type="submit" name="submitLogInInfo"
+                        value="Log-In">
+            </form>
+        </fieldset>
+    </header>
+
+    <body>
+        <div>
+            <h1 id="top">Welcome to the Space Battleship
+                        Yamato 2199 Fan Page
+            </h1>
+            <h2> Authored by Christopher Jacobo</h2>
+            <figure>
+                <img src="Images/yam2199cover.jpg" 
+                alt="Poster of Star Blazers 2199 with Mori and Kodai" 
+                title="Yamato 2199 Cover Poster">
+                <figcaption>The two main characters of the show stand back to back
+                            in front of the hope of the entire Earth: the Yamato
+                </figcaption>
+            </figure>
+        </div> <br />
+
+        <div>
+            <h3>
+                <a href="Characters/index.html">
+                Click here to view the list of characters
+                </a>
+            </h3>
+
+            <h3>
+                <a href="Tables/index.html">
+                    Click here to view various tables about the show
+            </a>
+            </h3>
+
+            <h3>
+                <a href="Survey/Survey.html">
+                    Click here to participate in a survey.
+                </a>
+            </h3>
+        </div>
+        <hr />
+
+        <p>
+            <i>Space Battleship Yamto 2199</i> is a sci-fi anime made in 2012 and
+            released in 2013. It follows the crew of the Earth on their quest 
+            to reach Iscandar in order to acquire the tech that can save the 
+            their beloved home planet. Aliens named Gamilans have bombarded 
+            the Earth to destruction, so the crew must race against time as well 
+            as fend off foes in order to save the world.
+        </p>
+
+    </body>
+
+    <!-- Leave a footer with an option to contact the author and forms to leave opinions-->
+    <footer>
+        <!-- Contact author, aka me-->
+        <a href="mailto:jacobochristopher743@gmail.com">
+            Contact me via email
+        </a>
+        <br />
+
+        <!-- Fieldset on comments here-->
+        <!-- Make: 1.Single Comment for errors     2. Comment box    3.Vote favorite episodes -->
+        <fieldset>
+            <legend>Tell us more here:</legend>
+            <form action="Somepagetocomeinthefuture.com/opinions.java">
+                <!-- User reported errors on the site -->
+                <label for="userReportedErrorsToFix">
+                    Any errors on this site? Leave the page url here and we'll 
+                    fix it right up!</label> <br />
+                    <input type="url" id="userReportedErrorsToFix"
+                            name="userReportedErrorsToFix"                             
+                            maxlength="40" />
+                    <input type="submit" name="userReportedErrorsToFix"
+                            value="Submit response" />
+                    <br />
+                    <!-- User comments about the show -->
+                    <label for="userWebsiteComments">
+                        Tell us what you think about the websites!</label> <br />
+                    <textarea name="showComments" id="userWebsiteComments">
+                        Enter your comments here
+                    </textarea>
+                    <input type="submit"
+                        value="Submit response" />
+            </form>
+         </fieldset>
+
+        <a href="#top">Back to the top of the page</a>
+    </footer>
+</html>
